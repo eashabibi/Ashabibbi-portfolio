@@ -10,7 +10,7 @@ body{
 }
 .menus{
     background-color: #3E54AC;
-    height: 7vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -295,12 +295,25 @@ textarea{
     margin: 30px;
 }
 .tasks .image{
-    width: 50%;
+    width: 45%;
     margin-left: 10%;
+}
+.tasks .image img{
+      height: 300px;
 }
 .tasks .content{
     width: 40%;
+    font-size: 22px;
+}
+.tasks .content p{
+        margin-top: 9px;
 }
 .activity{
     display: block;
+}
+#logo{
+ height: 70px;
+ position: absolute;
+ left: 110px;
+ top: 100px;
 }
